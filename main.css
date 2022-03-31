@@ -96,3 +96,58 @@ header img{
     margin-left: 10px;
     background-image: url('./assets/icono/dow.svg');
 }
+/* estilos para el main */
+main{
+    position: relative;
+}
+.section--tasa-de-cambio {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section--tasa-de-cambio .contenedor-imagen{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section--tasa-de-cambio h2 {
+    width: 288px;
+    height: 52px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+.section--tasa-de-cambio p {
+    width: 288px;
+    height: 54px;
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-align: center;
+    color: #757575;
+}
+.contenedor-corredoras {
+    width: 100%;
+}
+.contenedor-corredoras h3 {
+    position: relative;
+    left: 30%;
+    width: 99px;
+    height: 23px;
+    margin-top: 48px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--bitcoin-orange);
+}
+.contenedor-corredoras-tablas  {
+    display: flex;
+    
+}
