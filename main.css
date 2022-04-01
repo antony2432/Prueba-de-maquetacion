@@ -148,6 +148,5 @@ main{
     color: var(--bitcoin-orange);
 }
 .contenedor-corredoras-tablas  {
-    display: flex;
-    
+    display: flex;   
 }
