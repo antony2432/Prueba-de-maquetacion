@@ -97,15 +97,13 @@ header img{
     background-image: url('./assets/icono/dow.svg');
 }
 /* estilos para el main */
-main{
-    position: relative;
-}
 .section--tasa-de-cambio {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--of-white);
 }
 
 .section--tasa-de-cambio .contenedor-imagen{
@@ -135,11 +133,16 @@ main{
     color: #757575;
 }
 .contenedor-corredoras {
+    position: relative;
     width: 100%;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .contenedor-corredoras h3 {
     position: relative;
-    left: 30%;
+    right: 22%;
     width: 99px;
     height: 23px;
     margin-top: 48px;
@@ -148,5 +151,52 @@ main{
     color: var(--bitcoin-orange);
 }
 .contenedor-corredoras-tablas  {
-    display: flex;   
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    font-family: "Inter", sans-serif;
 }
+.contenedor-corredoras-tablas table {
+    width: 100%;
+    height: 100%;
+}
+.contenedor-corredoras-tablas td {
+    width: 50%;
+    height: 35px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #B5B0AC;
+    background-color: white;
+    padding-left: 20px;
+}
+.top-right {
+    border-top-right-radius: 10px;
+}
+.top-left{
+    border-top-left-radius: 10px;
+}
+.bottom-left{
+    border-bottom-left-radius: 10px;
+}
+.bottom-right{
+    border-bottom-right-radius: 10px;
+}
+.contenedor-corredoras-tablas .down{
+   width: 15px; 
+   height: 15px;
+   display: inline-block;
+   margin-left: 10px;
+   background-image: url('./assets/icono/trending-down.svg');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.contenedor-corredoras-tablas .up{
+    width: 15px; 
+    height: 15px;
+    display: inline-block;
+    margin-left: 10px;
+    background-image: url('./assets/icono/vector.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
